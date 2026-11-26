@@ -1,0 +1,19 @@
+{
+  "invoice_number": "KD-55821",
+  "invoice_date": "2026-02-15",
+  "due_date": "2026-03-01",
+  "currency": "EUR",
+  "vendor": {"name": "Kessler Datentechnik GmbH", "address": "Lindenstraße 17, 10969 Berlin, Germany"},
+  "vendor_tax_id": "DE287416530",
+  "bill_to": {"name": "Fjordline Analytics AS", "address": "Strandgata 42, 5013 Bergen, Norway"},
+  "line_items": [
+    {"description": "Dedicated server DX-64, Feb 2026", "quantity": 2, "unit_price": 329.00, "amount": 658.00},
+    {"description": "Managed backup, 2 TB", "quantity": 1, "unit_price": 84.50, "amount": 84.50},
+    {"description": "Additional IPv4 address", "quantity": 8, "unit_price": 2.10, "amount": 16.80}
+  ],
+  "subtotal": 759.30,
+  "tax": 0,
+  "shipping": null,
+  "total": 759.30,
+  "payment_terms": "14 days net"
+}

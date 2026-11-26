@@ -1,0 +1,28 @@
+NORTHWIND OFFICE SUPPLY CO.
+4410 Harbor Blvd, Suite 200, Oakland, CA 94607
+EIN: 94-3318027
+
+INVOICE
+
+Invoice #: NW-2026-0418
+Invoice Date: March 4, 2026
+Due Date: April 3, 2026
+Terms: Net 30
+
+BILL TO:
+Brightline Design Studio
+88 Mission Street, Floor 3
+San Francisco, CA 94105
+
+QTY   DESCRIPTION                          UNIT PRICE      AMOUNT
+12    Ergonomic mesh office chair            $189.00     $2,268.00
+4     Standing desk frame, dual motor        $412.50     $1,650.00
+30    A4 copy paper, 500-sheet ream            $6.25       $187.50
+1     Assembly & installation (flat fee)     $350.00       $350.00
+
+                                   Subtotal:  $4,455.50
+                         Sales Tax (8.75%):     $389.86
+                                   Shipping:    $120.00
+                                 TOTAL DUE:   $4,965.36
+
+Please remit payment to Northwind Office Supply Co. Thank you for your business!

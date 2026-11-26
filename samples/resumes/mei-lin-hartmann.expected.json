@@ -1,0 +1,16 @@
+{
+  "name": "Mei-Lin Hartmann",
+  "email": "meilin.hartmann@example.com",
+  "phone": "+49 89 5550 3321",
+  "location": "Munich, Germany",
+  "skills": ["Figma", "design systems", "user research", "prototyping", "accessibility (WCAG 2.2)", "HTML/CSS"],
+  "experience": [
+    {"company": "Aurelio Health GmbH", "title": "Lead Product Designer", "start_date": "2023-09", "end_date": null, "location": "Munich"},
+    {"company": "Brickfield Software", "title": "Product Designer", "start_date": "2020-03", "end_date": "2023-08", "location": "Berlin"},
+    {"company": "Studio Nordlicht", "title": "UX Intern → Junior UX Designer", "start_date": "2018-10", "end_date": "2020-02", "location": "Hamburg"}
+  ],
+  "education": [
+    {"institution": "Köln International School of Design", "degree": "M.A.", "field": "Interaction Design", "graduation_year": 2018},
+    {"institution": "Hochschule München", "degree": "B.A.", "field": "Communication Design", "graduation_year": 2016}
+  ]
+}

@@ -1,0 +1,13 @@
+# Benchmark output (regenerated on every run)
+results/
+
+# Secrets — keys belong in environment variables, never in the repo
+.env
+.env.*
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/

@@ -1,0 +1,22 @@
+Mei-Lin Hartmann
+Product Designer | Munich, Germany
+meilin.hartmann@example.com | +49 89 5550 3321 | portfolio: meilin.design
+
+Profile
+Product designer focused on B2B tools and design systems.
+
+Work history
+
+2023/09 – today   Lead Product Designer, Aurelio Health GmbH (Munich)
+                  Owns the clinician-facing design system used by 40+ engineers.
+
+2020/03 – 2023/08 Product Designer, Brickfield Software (Berlin)
+                  Redesigned onboarding; trial-to-paid conversion +18%.
+
+2018/10 – 2020/02 UX Intern → Junior UX Designer, Studio Nordlicht (Hamburg)
+
+Education
+M.A. Interaction Design — Köln International School of Design, 2018
+B.A. Communication Design — Hochschule München, 2016
+
+Tools & skills: Figma, design systems, user research, prototyping, accessibility (WCAG 2.2), HTML/CSS

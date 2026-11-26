@@ -1,0 +1,40 @@
+{
+  "invoice_number": "MT/0093",
+  "invoice_date": "2026-01-07",
+  "due_date": null,
+  "currency": "CAD",
+  "vendor": {
+    "name": "maple & thyme catering",
+    "address": null
+  },
+  "vendor_tax_id": null,
+  "bill_to": {
+    "name": "Ridgeway Community Theatre",
+    "address": null
+  },
+  "line_items": [
+    {
+      "description": "canapé platter (serves 25)",
+      "quantity": 3,
+      "unit_price": null,
+      "amount": 225.0
+    },
+    {
+      "description": "sparkling cider, case",
+      "quantity": 2,
+      "unit_price": null,
+      "amount": 64.0
+    },
+    {
+      "description": "staffing, server hours",
+      "quantity": 8,
+      "unit_price": 28.0,
+      "amount": 224.0
+    }
+  ],
+  "subtotal": 513.0,
+  "tax": 66.69,
+  "shipping": null,
+  "total": 579.69,
+  "payment_terms": null
+}

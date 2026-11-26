@@ -1,0 +1,15 @@
+{
+  "name": "Dana Okafor",
+  "email": "dana.okafor@example.com",
+  "phone": "(512) 555-0187",
+  "location": "Austin, TX",
+  "skills": ["Go", "Python", "PostgreSQL", "CockroachDB", "Kafka", "Kubernetes", "gRPC", "Terraform"],
+  "experience": [
+    {"company": "Ledgerly", "title": "Staff Software Engineer", "start_date": "2022-06", "end_date": null, "location": "Austin, TX"},
+    {"company": "Paywise Inc.", "title": "Software Engineer II", "start_date": "2019-08", "end_date": "2022-05", "location": "Remote"},
+    {"company": "Cobalt Retail Systems", "title": "Software Engineer", "start_date": "2017-07", "end_date": "2019-07", "location": "Dallas, TX"}
+  ],
+  "education": [
+    {"institution": "University of Texas at Austin", "degree": "B.S.", "field": "Computer Science", "graduation_year": 2017}
+  ]
+}

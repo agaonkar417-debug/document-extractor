@@ -1,0 +1,26 @@
+DANA OKAFOR
+Senior Backend Engineer
+Austin, TX  ·  dana.okafor@example.com  ·  (512) 555-0187  ·  github.com/dokafor
+
+SUMMARY
+Backend engineer with 8 years building payment and ledger systems at scale.
+
+EXPERIENCE
+
+Ledgerly — Staff Software Engineer                            Austin, TX
+Jun 2022 – Present
+- Led migration of the double-entry ledger from Postgres to a sharded CockroachDB cluster.
+- Cut p99 settlement latency from 1.8 s to 240 ms.
+
+Paywise Inc. — Software Engineer II                           Remote
+Aug 2019 – May 2022
+- Built the idempotent retry layer for card-network webhooks.
+
+Cobalt Retail Systems — Software Engineer                      Dallas, TX
+Jul 2017 – Jul 2019
+
+EDUCATION
+University of Texas at Austin — B.S., Computer Science, 2017
+
+SKILLS
+Go, Python, PostgreSQL, CockroachDB, Kafka, Kubernetes, gRPC, Terraform

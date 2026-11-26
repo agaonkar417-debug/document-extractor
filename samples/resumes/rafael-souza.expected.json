@@ -1,0 +1,14 @@
+{
+  "name": "Rafael Souza",
+  "email": "rafa.souza@example.com",
+  "phone": null,
+  "location": null,
+  "skills": ["SQL", "Power BI", "Excel", "Python (pandas)", "dbt"],
+  "experience": [
+    {"company": "Verdant Grocers", "title": "Data Analyst", "start_date": "2024-01", "end_date": null, "location": "Lisbon"},
+    {"company": "Porto Mobility", "title": "BI Analyst", "start_date": "2022-02", "end_date": "2023-12", "location": null}
+  ],
+  "education": [
+    {"institution": "Universidade do Porto", "degree": "Licenciatura", "field": "Economics", "graduation_year": 2021}
+  ]
+}

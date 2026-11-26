@@ -1,0 +1,14 @@
+RAFAEL SOUZA
+rafa.souza@example.com
+
+Data analyst. I like turning messy spreadsheets into dashboards people actually use.
+
+What I've done:
+* Since January 2024 I've been a Data Analyst at Verdant Grocers, working out of their
+  Lisbon office on supply-chain forecasting.
+* Before that I spent two years (Feb 2022 to Dec 2023) as a BI Analyst at Porto
+  Mobility, mostly in Power BI.
+
+School: Universidade do Porto, Licenciatura in Economics (2021)
+
+I'm comfortable with SQL, Power BI, Excel, Python (pandas), and dbt.

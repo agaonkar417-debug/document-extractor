@@ -1,0 +1,20 @@
+maple & thyme catering
+—————————————————————
+invoice   MT/0093
+date      7 Jan 2026
+
+to:  Ridgeway Community Theatre
+     ATTN: Priya Raman
+
+event: opening night reception, 3 Jan 2026
+
+  - canapé platter (serves 25) x3 ........ 225.00
+  - sparkling cider, case x2 ............. 64.00
+  - staffing, server hours 8 @ 28.00 ..... 224.00
+
+  subtotal 513.00
+  HST 13%   66.69
+  ------------------
+  TOTAL CAD 579.69
+
+e-transfer to billing@mapleandthyme.example — thanks!!
