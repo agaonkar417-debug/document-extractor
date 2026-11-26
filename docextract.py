@@ -95,7 +95,7 @@ MODELS: dict[str, dict[str, float]] = {
     "gemini-4-hydrogen": {"in": 1.50, "out": 7.50, "cache_read": 0.075},
     "gemini-3.8-flash": {"in": 0.75, "out": 3.75, "cache_read": 0.075},
     "gemini-3.6-flash": {"in": 0.75, "out": 3.75, "cache_read": 0.075},
-    "gemini-3-flash-preview": {"in": 0.50, "out": 3.00, "cache_read": 0.05},  # check: not confirmed on the pricing page
+    "gemini-3-flash-preview": {"in": 0.50, "out": 3.00, "cache_read": 0.05},
     "gemini-3.5-flash-lite": {"in": 0.30, "out": 2.50, "cache_read": 0.03},
     "claude-opus-5-5": {"in": 4.00, "out": 20.00, "cache_read": 0.20},
     "claude-sonnet-5-5": {"in": 2.00, "out": 10.00, "cache_read": 0.10},
