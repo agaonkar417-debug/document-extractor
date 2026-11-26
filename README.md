@@ -72,18 +72,31 @@ The `.json` report has every extraction and a list of each field a model got wro
 ## Results on the sample set
 
 6 documents (3 invoices, 3 resumes), effort `low`, one request at a time per model,
-run on 2026-11-26 with a free-tier key.
+run on 2026-11-26 with a free-tier key. Same prompt, schema and settings for all three;
+`gemini-4-hydrogen` ran about 20 minutes after the other two, once its free-tier daily
+quota had reset.
 
 | Model | Accuracy | Invoices | Resumes | Latency p50 | Latency p95 | Cost / doc | Cost / 1K docs | Errors |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| `gemini-3-flash-preview` | 97.6% | 96.3% | 98.9% | 2.26s | 2.89s | $0.00095 | $0.95 | 0/6 |
+| `gemini-4-hydrogen` | **100.0%** | 100.0% | 100.0% | 8.79s | 40.74s | $0.00732 | $7.32 | 0/6 |
 | `gemini-3.5-flash-lite` | 98.2% | 96.3% | 100.0% | 2.47s | 3.12s | $0.00102 | $1.02 | 0/6 |
-| `gemini-4-hydrogen` | _pending — free-tier daily quota_ | | | | | | | |
+| `gemini-3-flash-preview` | 97.6% | 96.3% | 98.9% | **2.26s** | **2.89s** | **$0.00095** | **$0.95** | 0/6 |
 
-Every miss was a genuine extraction error, not a scoring artefact:
+**In short:** `gemini-4-hydrogen` was the only model with no misses, at about 7× the cost
+and 3–4× the latency. The two flash models are close to each other — at roughly $1 per
+1,000 documents and ~2.5 s each, they're the practical choice when a few percent of
+fields can be checked by a person.
 
-- **Both models computed unit prices** on the catering invoice ($75, $32) by dividing the
+`gemini-4-hydrogen`'s p95 latency comes from two requests that took 37 s and 41 s. They
+used the same number of tokens as its 5 s requests, so the extra time was queueing on
+Google's side (the model was reporting high demand that day), not more work. Its typical
+latency was 5–12 s.
+
+Every miss by the two flash models was a genuine extraction error, not a scoring artefact:
+
+- **Both flash models computed unit prices** on the catering invoice ($75, $32) by dividing the
   line totals. Those prices aren't printed, and the prompt says not to compute values.
+  `gemini-4-hydrogen` correctly left them empty.
 - **"ATTN: Priya Raman" misplaced** — `gemini-3-flash-preview` used it as the customer's
   address, `gemini-3.5-flash-lite` appended it to the customer's name.
 - **Inferred location** — `gemini-3-flash-preview` gave a candidate's location as "Lisbon"
